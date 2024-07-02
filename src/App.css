@@ -6,8 +6,8 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 0.75em;
+  padding: 0 15px 0 0;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -16,6 +16,12 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes logo-spin {
